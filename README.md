@@ -46,44 +46,6 @@ The strategy has been backtested on **MAANG stocks** from **1st January 2015 to 
 - **Drawdown Plot:** Visualizes the drawdowns for both the strategy and the buy-and-hold approach.
 - **Cumulative Returns Plot:** Compares the cumulative returns of the strategy vs. buy-and-hold.
 
----
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/maang-trading-strategy.git
-    ```
-2. Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Install additional dependencies for technical indicators:
-    ```bash
-    pip install ta yfinance matplotlib
-    ```
-
----
-
-## How to Run
-
-1. **Set Up Parameters**:
-    The following parameters are adjustable in the code:
-    - **Start Date** and **End Date**
-    - **Stock Symbols** (e.g., MAANG stocks)
-    - **Bollinger Bands Window and Standard Deviation**
-    - **RSI Window**
-    - **ATR Window**
-
-2. **Run the Backtest**:
-    Execute the backtesting code to generate signals and evaluate the strategy's performance:
-    ```python
-    python strategy_backtest.py
-    ```
-
----
-
 ## Optimization
 
 The parameters for Bollinger Bands, RSI, and ATR have been optimized based on Sharpe Ratio, with the following values yielding the best performance:
