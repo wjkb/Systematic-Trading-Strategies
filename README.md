@@ -98,6 +98,9 @@ The following metrics are used to evaluate the strategy's performance and compar
 9. **Treynor Ratio**: A risk-adjusted measure of return based on systematic risk, using beta.
 10. **Information Ratio**: Measures the strategy's performance relative to a benchmark, adjusted for the tracking error.
 
+
+
+
 # Trading Strategy 2: Multi-Timeframe EMA + RSI with Dynamic Quantiles and Stop-Loss Optimization
 
 This repository contains a Python-based trading strategy that combines **Simple and Exponential Moving Averages (SMA, EMA)**, **Relative Strength Index (RSI)**, and a **stop-loss optimization mechanism** to generate buy and sell signals. The strategy is designed for backtesting on MAANG stocks (Meta, Apple, Amazon, Netflix, and Google) over a specified period, comparing its performance against a simple buy-and-hold approach.
